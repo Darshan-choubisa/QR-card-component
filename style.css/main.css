@@ -1,0 +1,54 @@
+@import url('reset.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Slate-300);
+}
+
+.QR-code{
+    height: 540px;
+    width: 330px;
+    background-color: var(--White);
+    padding: 15px;
+    border-radius: 1rem;
+}
+
+.image{
+    border-radius: 1rem;
+}
+
+.content{
+    margin-top: 24px;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+.meassage-1{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--Slate-900);
+}
+
+.meassage-2{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 16px;
+    color: var(--Slate-500);
+}
